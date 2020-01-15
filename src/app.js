@@ -13,20 +13,20 @@ import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 
-console.log(store.getState());
+// console.log(store.getState());
 
-store.dispatch(addExpanse({description:'Water bill',amount:250}));
-store.dispatch(addExpanse({description:'Gas bill',amount:450}));
-store.dispatch(addExpanse({description:'Trening bill',amount:3450}));
-store.dispatch(addExpanse({description:'rent',amount:13450,createdAt:1080}));
+// store.dispatch(addExpanse({description:'Water bill',amount:250}));
+// store.dispatch(addExpanse({description:'Gas bill',amount:450}));
+// store.dispatch(addExpanse({description:'Trening bill',amount:3450}));
+// store.dispatch(addExpanse({description:'rent',amount:13450,createdAt:1080}));
 //store.dispatch(setTextFilter('water'));
 
 // setTimeout(() =>{
 //   store.dispatch(setTextFilter('bill'));
 // },3000)
 
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses,state.filters);
+// const state = store.getState();
+// const visibleExpenses = getVisibleExpenses(state.expenses,state.filters);
 
 console.log(visibleExpenses);
 
